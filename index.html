@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal academic and technical portfolio." />
+  <title>Your Name | Research & Technology</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="#home">YN</a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#cv">CV</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Research · Cybersecurity · Networking</p>
+          <h1>Your Name</h1>
+          <p class="hero-copy">
+            Graduate researcher and technology professional interested in cybersecurity,
+            privacy, wireless networking, and emerging communication technologies.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#research">View my work</a>
+            <a class="button secondary" href="#contact">Contact me</a>
+          </div>
+        </div>
+        <aside class="profile-card">
+          <div class="avatar">YN</div>
+          <h2>Your Name</h2>
+          <p>Graduate Researcher</p>
+          <div class="mini-links">
+            <a href="#" aria-label="LinkedIn profile">LinkedIn</a>
+            <a href="#" aria-label="GitHub profile">GitHub</a>
+            <a href="#" aria-label="Google Scholar profile">Scholar</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container narrow">
+        <p class="section-label">About</p>
+        <h2>Exploring secure and future-facing technologies.</h2>
+        <p>
+          I am a graduate researcher with interests across cybersecurity, privacy,
+          wireless networking, and quantum networking. My work focuses on understanding
+          how communication systems can be made more secure, resilient, and trustworthy.
+        </p>
+        <p>
+          This website is a home for my research, academic projects, presentations,
+          and technical work.
+        </p>
+      </div>
+    </section>
+
+    <section id="research" class="section alt">
+      <div class="container">
+        <p class="section-label">Research</p>
+        <h2>Research interests</h2>
+        <div class="card-grid">
+          <article class="card">
+            <span class="card-number">01</span>
+            <h3>Quantum Networking</h3>
+            <p>
+              Quantum communication, quantum interfaces, entanglement distribution,
+              quantum memories, and long-distance quantum networks.
+            </p>
+          </article>
+          <article class="card">
+            <span class="card-number">02</span>
+            <h3>Wireless Security</h3>
+            <p>
+              Jamming attacks, anti-jamming strategies, wireless threat models,
+              physical-layer security, and resilient communication.
+            </p>
+          </article>
+          <article class="card">
+            <span class="card-number">03</span>
+            <h3>Privacy & Security</h3>
+            <p>
+              Data privacy, privacy harms, cryptographic standards, password security,
+              hashing algorithms, and security policy.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <p class="section-label">Projects</p>
+        <h2>Selected work</h2>
+        <div class="project-list">
+          <article class="project">
+            <div>
+              <p class="project-type">Research</p>
+              <h3>Quantum Networking Literature Review</h3>
+            </div>
+            <p>
+              A review of foundational and recent work on quantum networks, interfaces,
+              memories, repeaters, and distributed quantum computing.
+            </p>
+            <a href="#">Details →</a>
+          </article>
+          <article class="project">
+            <div>
+              <p class="project-type">Security</p>
+              <h3>Wireless Jamming & Anti-Jamming Analysis</h3>
+            </div>
+            <p>
+              Analysis of intelligent jamming strategies, channel hopping, and
+              attack-defense cost asymmetry in wireless systems.
+            </p>
+            <a href="#">Details →</a>
+          </article>
+          <article class="project">
+            <div>
+              <p class="project-type">Privacy</p>
+              <h3>Evolution of Data Privacy</h3>
+            </div>
+            <p>
+              Comparative analysis of changing definitions of privacy, personal
+              information, and privacy harms across legal and non-legal sources.
+            </p>
+            <a href="#">Details →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="cv" class="section alt">
+      <div class="container cv-block">
+        <div>
+          <p class="section-label">Curriculum Vitae</p>
+          <h2>Education, experience, research, and technical skills.</h2>
+          <p>
+            Add your CV as a PDF to this website and replace the link below with the
+            actual file name.
+          </p>
+        </div>
+        <a class="button primary" href="#" download>Download CV</a>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container contact-grid">
+        <div>
+          <p class="section-label">Contact</p>
+          <h2>Let’s connect.</h2>
+          <p>
+            For research, academic collaboration, or professional opportunities,
+            feel free to reach out.
+          </p>
+        </div>
+        <div class="contact-card">
+          <p><strong>Email</strong><br><a href="mailto:yourname@example.com">yourname@example.com</a></p>
+          <p><strong>LinkedIn</strong><br><a href="#">Add your LinkedIn URL</a></p>
+          <p><strong>GitHub</strong><br><a href="#">Add your GitHub URL</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-wrap">
+      <p>© <span id="year"></span> Your Name.</p>
+      <p>Built with HTML, CSS & JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
